@@ -22,7 +22,6 @@ type GeminiResponse struct {
 	} `json:"candidates"`
 }
 
-// CallGemini memanggil Gemini API dengan prompt teks
 func CallGemini(prompt string) (string, error) {
 	apiKey := os.Getenv("GEMINI_API_KEY")
 	url := "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + apiKey
