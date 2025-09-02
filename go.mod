@@ -1,4 +1,4 @@
-module github.com/wkloose/tempproject.git
+module github.com/wkloose/Glowlytics
 
 go 1.24.0
 
