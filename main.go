@@ -2,8 +2,8 @@ package main
 
 import (
 	"os"
-	"github.com/wkloose/tempproject.git/initializers"
-	"github.com/wkloose/tempproject.git/middleware"
+	"github.com/wkloose/Glowlytics/initializers"
+	"github.com/wkloose/Glowlytics/middleware"
 	"github.com/gin-gonic/gin"
 )
 

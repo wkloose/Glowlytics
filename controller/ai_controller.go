@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"github.com/wkloose/tempproject.git/services"
+	"github.com/wkloose/Glowlytics/services"
 )
 
 type AIRequest struct {
